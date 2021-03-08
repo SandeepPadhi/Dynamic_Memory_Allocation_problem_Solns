@@ -1,0 +1,39 @@
+
+5
+1
+5 4
+1 2 3 4 5
+2
+3
+4 4
+1 2 3 4
+4
+2
+3 4
+2
+
+
+The idea is to try different functions one by one as per the input:
+
+
+Following is the input pattern :
+1)First line gives the number of operations to execeute
+2)Next lines will deal with operations.Each operation has different lines.
+3)Following is the code for different operation and their lines:
+    1-my_calloc:
+        first line-1
+        second line : number_of_elements datatype_size
+        thrid line: numbers to be added
+    2-my-free
+        first line - 2
+    3-my-malloc
+        first line-3
+        second line : number_of_elements datatype_size
+        thrid line: numbers to be added
+    4-my-relloc:
+        first line - 4
+        second line - number of extra number_of_elements to be added to heap for reallocation of memory to expand it.
+        third line - numbers to be added
+
+
+
